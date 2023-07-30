@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    margin-top: 200px;
+    gap: 40px;
+    height: 250px;
+    border-radius: 120px;
+    width:80%;
+    margin-left: 40px;
+    background-image: linear-gradient(blue,red);
+}
+.year,.month,.day,.hour,.min,.sec{
+    display: flex;
+    padding: 15px;
+    border: 2px solid rgb(47, 0, 255);
+    margin-top: 90px;
+    margin-left: 35px;
+}
+span{
+    color: rgb(114, 105, 105);
+    font-size: 40px;
+    margin-left: 20px;
+}
